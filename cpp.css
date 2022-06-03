@@ -1,0 +1,27 @@
+*{ margin: 0; padding: 0; font-family: Arial, Sans-Serif; }
+
+body{ background-color: white   ; }
+
+header{ width: 100%; height: 50px; background-color: #000; }
+
+#menu-principal-container {
+    margin: 0px 50px;
+    text-align: center;
+    position: relative;
+
+    /* flexbox */
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu-principal-container h1{ padding: 10px 20px; background-color: transparent; width: 250px; text-align:center; }
+
+#menu-principal-container h1 a{ color: #0049b0  ; text-decoration: none; }
+
+#menu-principal{ width: auto; display: block; }
+
+#menu-principal li{ display: inline-block; margin-top: 65px; }
+
+#menu-principal li a{ color: #5794f0   ; text-decoration: none; list-style: none; padding: 15px 50px; }
+
+#menu-principal li:hover a{ background-color: #85a6d9  ; color: #faba5a; border-bottom: 3px solid #faba5a; }
