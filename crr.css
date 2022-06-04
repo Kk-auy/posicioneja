@@ -5,6 +5,7 @@ body {
   font-family: "Open Sans";
   line-height: 1.618em;
   background: #2c3e50;
+  width: 100%;
 }
 .wrapper {
   max-width: 65rem;
