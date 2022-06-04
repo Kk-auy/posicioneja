@@ -1,6 +1,6 @@
 
   box-sizing: border-box;
-}
+
 body {
   font-family: "Open Sans";
   line-height: 1.618em;
@@ -117,3 +117,4 @@ button.grow_skew_forward:hover::after {
 }
 button.grow_skew_backward::after {
   left: -20%;
+}
